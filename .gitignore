@@ -1,0 +1,45 @@
+# ============================================================================
+# .gitignore - Files to NOT upload to GitHub
+# ============================================================================
+
+# Environment variables (NEVER upload API keys!)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated files
+*.html
+*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
